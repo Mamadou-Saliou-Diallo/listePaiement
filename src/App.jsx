@@ -27,7 +27,6 @@ const App = () => {
 
   return (
     <div>
-      <h1 className="text-center mt-4">Gestion des paiements_KEWERE</h1>
       <PaiementForm ajouterPaiement={ajouterPaiement} />
       <PaiementsList paiements={paiements} supprimerPaiement={supprimerPaiement} />
     </div>
