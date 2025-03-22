@@ -20,7 +20,7 @@ const PaiementForm = ({ ajouterPaiement }) => {
       <h2>Ajouter un paiement</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
-          <label className="form-label">Nom</label>
+          <label className="form-label">Prénom & Nom</label>
           <input
             type="text"
             className="form-control"

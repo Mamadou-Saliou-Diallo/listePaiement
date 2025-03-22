@@ -40,3 +40,7 @@
 .read-the-docs {
   color: #888;
 }
+span{
+  color: blue;
+  text-decoration: line-through;
+}
